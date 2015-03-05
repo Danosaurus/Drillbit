@@ -8,56 +8,56 @@ obj/local/armeabi/objs-debug/cocos2dcpp_shared/__/__/Classes/AppDelegate.o: \
  jni/../../cocos2d/cocos/3d/../base/ccConfig.h \
  jni/../../cocos2d/cocos/3d/../platform/CCPlatformDefine.h \
  jni/../../cocos2d/cocos/3d/../platform/android/CCPlatformDefine-android.h \
- C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/android/log.h \
+ C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/android/log.h \
  jni/../../cocos2d/cocos/3d/../base/CCRefPtr.h \
  jni/../../cocos2d/cocos/3d/../base/CCRef.h \
  jni/../../cocos2d/cocos/3d/../base/ccMacros.h \
  jni/../../cocos2d/cocos/3d/../base/CCConsole.h \
- C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/sys/select.h \
- C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/sys/cdefs.h \
- C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/sys/cdefs_elf.h \
- C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/android/api-level.h \
- C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/sys/time.h \
- C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/sys/types.h \
- C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/stdint.h \
- C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/sys/_types.h \
- C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/machine/_types.h \
- C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/sys/_wchar_limits.h \
- C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/linux/posix_types.h \
- C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/linux/stddef.h \
- C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/linux/compiler.h \
- C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/asm/posix_types.h \
- C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/asm/types.h \
- C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/linux/types.h \
- C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/machine/kernel.h \
- C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/sys/sysmacros.h \
- C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/linux/time.h \
- C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/signal.h \
- C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/limits.h \
- C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/sys/limits.h \
- C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/linux/limits.h \
- C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/machine/internal_types.h \
- C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/machine/limits.h \
- C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/sys/syslimits.h \
- C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/asm/page.h \
- C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/string.h \
- C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/malloc.h \
- C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/asm/signal.h \
- C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/asm-generic/signal.h \
- C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/asm/sigcontext.h \
- C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/asm/siginfo.h \
- C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/asm-generic/siginfo.h \
+ C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/select.h \
+ C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/cdefs.h \
+ C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/cdefs_elf.h \
+ C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/android/api-level.h \
+ C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/time.h \
+ C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/types.h \
+ C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/stdint.h \
+ C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/_types.h \
+ C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/machine/_types.h \
+ C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/_wchar_limits.h \
+ C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/linux/posix_types.h \
+ C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/linux/stddef.h \
+ C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/linux/compiler.h \
+ C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm/posix_types.h \
+ C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm/types.h \
+ C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/linux/types.h \
+ C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/machine/kernel.h \
+ C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/sysmacros.h \
+ C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/linux/time.h \
+ C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/signal.h \
+ C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/limits.h \
+ C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/limits.h \
+ C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/linux/limits.h \
+ C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/machine/internal_types.h \
+ C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/machine/limits.h \
+ C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/syslimits.h \
+ C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm/page.h \
+ C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/string.h \
+ C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/malloc.h \
+ C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm/signal.h \
+ C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm-generic/signal.h \
+ C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm/sigcontext.h \
+ C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm/siginfo.h \
+ C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm-generic/siginfo.h \
  C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.8/include/thread \
  C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.8/include/vector \
  C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.8/include/map \
  C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.8/include/mutex \
  jni/../../cocos2d/cocos/3d/../platform/CCStdC.h \
  jni/../../cocos2d/cocos/3d/../platform/android/CCStdC-android.h \
- C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/math.h \
- C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/stdlib.h \
- C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/alloca.h \
- C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/strings.h \
- C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/memory.h \
+ C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/math.h \
+ C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/stdlib.h \
+ C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/alloca.h \
+ C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/strings.h \
+ C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/memory.h \
  C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.8/include/cassert \
  jni/../../cocos2d/cocos/3d/../base/ccRandom.h \
  C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.8/include/random \
@@ -90,10 +90,10 @@ obj/local/armeabi/objs-debug/cocos2dcpp_shared/__/__/Classes/AppDelegate.o: \
  jni/../../cocos2d/cocos/3d/../base/ccTypes.h \
  jni/../../cocos2d/cocos/3d/../platform/CCGL.h \
  jni/../../cocos2d/cocos/3d/../platform/android/CCGL-android.h \
- C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/GLES2/gl2platform.h \
- C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/KHR/khrplatform.h \
- C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/GLES2/gl2.h \
- C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/GLES2/gl2ext.h \
+ C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/GLES2/gl2platform.h \
+ C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/KHR/khrplatform.h \
+ C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/GLES2/gl2.h \
+ C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/GLES2/gl2ext.h \
  jni/../../cocos2d/cocos/3d/../base/CCConfiguration.h \
  jni/../../cocos2d/cocos/3d/../base/CCValue.h \
  jni/../../cocos2d/cocos/3d/../base/CCDirector.h \
@@ -116,14 +116,14 @@ obj/local/armeabi/objs-debug/cocos2dcpp_shared/__/__/Classes/AppDelegate.o: \
  jni/../../cocos2d/cocos/3d/../base/CCScheduler.h \
  C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.8/include/set \
  jni/../../cocos2d/cocos/3d/../base/uthash.h \
- C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/inttypes.h \
+ C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/inttypes.h \
  jni/../../cocos2d/cocos/3d/../base/base64.h \
  jni/../../cocos2d/cocos/3d/../base/ZipUtils.h \
  jni/../../cocos2d/cocos/3d/../platform/android/CCFileUtils-android.h \
  jni/../../cocos2d/cocos/3d/../platform/CCFileUtils.h \
  jni/../../cocos2d/cocos/3d/../base/CCData.h \
- C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/jni.h \
- C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/android/asset_manager.h \
+ C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/jni.h \
+ C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/android/asset_manager.h \
  jni/../../cocos2d/cocos/3d/../base/CCProfiling.h \
  jni/../../cocos2d/cocos/3d/../base/CCMap.h \
  jni/../../cocos2d/cocos/3d/../base/CCConsole.h \
@@ -349,7 +349,8 @@ obj/local/armeabi/objs-debug/cocos2dcpp_shared/__/__/Classes/AppDelegate.o: \
  jni/../../cocos2d/cocos/3d/../deprecated/CCString.h \
  jni/../../cocos2d/cocos/3d/../deprecated/CCNotificationCenter.h \
  jni/../../cocos2d/cocos/3d/../deprecated/CCDeprecated.h \
- jni/../../Classes/HelloWorldScene.h
+ jni/../../Classes/MainScene.h jni/../../Classes/World.h \
+ jni/../../Classes/Entity.h
 
 jni/../../Classes/AppDelegate.h:
 
@@ -369,7 +370,7 @@ jni/../../cocos2d/cocos/3d/../platform/CCPlatformDefine.h:
 
 jni/../../cocos2d/cocos/3d/../platform/android/CCPlatformDefine-android.h:
 
-C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/android/log.h:
+C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/android/log.h:
 
 jni/../../cocos2d/cocos/3d/../base/CCRefPtr.h:
 
@@ -379,73 +380,73 @@ jni/../../cocos2d/cocos/3d/../base/ccMacros.h:
 
 jni/../../cocos2d/cocos/3d/../base/CCConsole.h:
 
-C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/sys/select.h:
+C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/select.h:
 
-C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/sys/cdefs.h:
+C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/cdefs.h:
 
-C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/sys/cdefs_elf.h:
+C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/cdefs_elf.h:
 
-C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/android/api-level.h:
+C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/android/api-level.h:
 
-C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/sys/time.h:
+C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/time.h:
 
-C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/sys/types.h:
+C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/types.h:
 
-C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/stdint.h:
+C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/stdint.h:
 
-C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/sys/_types.h:
+C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/_types.h:
 
-C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/machine/_types.h:
+C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/machine/_types.h:
 
-C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/sys/_wchar_limits.h:
+C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/_wchar_limits.h:
 
-C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/linux/posix_types.h:
+C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/linux/posix_types.h:
 
-C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/linux/stddef.h:
+C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/linux/stddef.h:
 
-C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/linux/compiler.h:
+C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/linux/compiler.h:
 
-C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/asm/posix_types.h:
+C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm/posix_types.h:
 
-C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/asm/types.h:
+C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm/types.h:
 
-C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/linux/types.h:
+C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/linux/types.h:
 
-C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/machine/kernel.h:
+C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/machine/kernel.h:
 
-C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/sys/sysmacros.h:
+C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/sysmacros.h:
 
-C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/linux/time.h:
+C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/linux/time.h:
 
-C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/signal.h:
+C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/signal.h:
 
-C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/limits.h:
+C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/limits.h:
 
-C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/sys/limits.h:
+C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/limits.h:
 
-C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/linux/limits.h:
+C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/linux/limits.h:
 
-C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/machine/internal_types.h:
+C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/machine/internal_types.h:
 
-C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/machine/limits.h:
+C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/machine/limits.h:
 
-C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/sys/syslimits.h:
+C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/syslimits.h:
 
-C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/asm/page.h:
+C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm/page.h:
 
-C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/string.h:
+C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/string.h:
 
-C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/malloc.h:
+C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/malloc.h:
 
-C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/asm/signal.h:
+C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm/signal.h:
 
-C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/asm-generic/signal.h:
+C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm-generic/signal.h:
 
-C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/asm/sigcontext.h:
+C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm/sigcontext.h:
 
-C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/asm/siginfo.h:
+C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm/siginfo.h:
 
-C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/asm-generic/siginfo.h:
+C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm-generic/siginfo.h:
 
 C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.8/include/thread:
 
@@ -459,15 +460,15 @@ jni/../../cocos2d/cocos/3d/../platform/CCStdC.h:
 
 jni/../../cocos2d/cocos/3d/../platform/android/CCStdC-android.h:
 
-C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/math.h:
+C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/math.h:
 
-C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/stdlib.h:
+C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/stdlib.h:
 
-C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/alloca.h:
+C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/alloca.h:
 
-C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/strings.h:
+C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/strings.h:
 
-C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/memory.h:
+C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/memory.h:
 
 C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/gnu-libstdc++/4.8/include/cassert:
 
@@ -533,13 +534,13 @@ jni/../../cocos2d/cocos/3d/../platform/CCGL.h:
 
 jni/../../cocos2d/cocos/3d/../platform/android/CCGL-android.h:
 
-C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/GLES2/gl2platform.h:
+C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/GLES2/gl2platform.h:
 
-C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/KHR/khrplatform.h:
+C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/KHR/khrplatform.h:
 
-C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/GLES2/gl2.h:
+C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/GLES2/gl2.h:
 
-C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/GLES2/gl2ext.h:
+C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/GLES2/gl2ext.h:
 
 jni/../../cocos2d/cocos/3d/../base/CCConfiguration.h:
 
@@ -585,7 +586,7 @@ C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources
 
 jni/../../cocos2d/cocos/3d/../base/uthash.h:
 
-C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/inttypes.h:
+C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/inttypes.h:
 
 jni/../../cocos2d/cocos/3d/../base/base64.h:
 
@@ -597,9 +598,9 @@ jni/../../cocos2d/cocos/3d/../platform/CCFileUtils.h:
 
 jni/../../cocos2d/cocos/3d/../base/CCData.h:
 
-C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/jni.h:
+C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/jni.h:
 
-C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-9/arch-arm/usr/include/android/asset_manager.h:
+C:/Users/Zucchi/Documents/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/android/asset_manager.h:
 
 jni/../../cocos2d/cocos/3d/../base/CCProfiling.h:
 
@@ -1051,4 +1052,8 @@ jni/../../cocos2d/cocos/3d/../deprecated/CCNotificationCenter.h:
 
 jni/../../cocos2d/cocos/3d/../deprecated/CCDeprecated.h:
 
-jni/../../Classes/HelloWorldScene.h:
+jni/../../Classes/MainScene.h:
+
+jni/../../Classes/World.h:
+
+jni/../../Classes/Entity.h:

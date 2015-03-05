@@ -12,7 +12,9 @@ LOCAL_MODULE_FILENAME := libcocos2dcpp
 
 LOCAL_SRC_FILES := maincpp/main.cpp \
                    ../../Classes/AppDelegate.cpp \
-                   ../../Classes/MainScene.cpp
+                   ../../Classes/MainScene.cpp \
+                   ../../Classes/World.cpp \
+                   ../../Classes/Entity.cpp
 
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/../../Classes
 
