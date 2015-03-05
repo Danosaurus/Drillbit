@@ -348,7 +348,8 @@ obj/local/armeabi/objs/cocos2dcpp_shared/__/__/Classes/MainScene.o: \
  jni/../../cocos2d/cocos/3d/../deprecated/CCBool.h \
  jni/../../cocos2d/cocos/3d/../deprecated/CCString.h \
  jni/../../cocos2d/cocos/3d/../deprecated/CCNotificationCenter.h \
- jni/../../cocos2d/cocos/3d/../deprecated/CCDeprecated.h
+ jni/../../cocos2d/cocos/3d/../deprecated/CCDeprecated.h \
+ jni/../../Classes/World.h jni/../../Classes/Entity.h
 
 jni/../../Classes/MainScene.h:
 
@@ -1049,3 +1050,7 @@ jni/../../cocos2d/cocos/3d/../deprecated/CCString.h:
 jni/../../cocos2d/cocos/3d/../deprecated/CCNotificationCenter.h:
 
 jni/../../cocos2d/cocos/3d/../deprecated/CCDeprecated.h:
+
+jni/../../Classes/World.h:
+
+jni/../../Classes/Entity.h:
