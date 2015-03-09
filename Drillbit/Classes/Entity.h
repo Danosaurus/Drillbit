@@ -11,8 +11,9 @@ class Entity
 public:
 	static Entity* makeEntity(float mass, Vec2 pos, Vec2 vel, Vec2 acc, Sprite* sprite);
 	void updatePos();
-	void applyAccel(Vec2 acc);
+	void accel(Vec2 acc);
 	float getMass();
+	Vec2 getVel();
 	Vec2 getPos();
 	Sprite* getSprite();
 private:
