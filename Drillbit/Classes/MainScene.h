@@ -11,6 +11,8 @@ public:
     virtual bool init();
     void menuCloseCallback(cocos2d::Ref* pSender);
     void addEntitySubs(Entity* entity);
+
+    void update(float) override;
     CREATE_FUNC(MainScene);
 private:
 	World world;

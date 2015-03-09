@@ -36,9 +36,13 @@ bool MainScene::init()
     for (std::vector<Entity*>::const_iterator iterator = entities.begin(); iterator != entities.end(); ++iterator) {
     	this->addChild((*iterator)->getSprite(), 1);
     }
+    this->scheduleUpdate();
     return true;
 }
 
+void MainScene::update(float delta){
+	world.updateEntities();
+}
 
 void MainScene::menuCloseCallback(Ref* pSender)
 {

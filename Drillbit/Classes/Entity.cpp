@@ -13,7 +13,7 @@ Entity* Entity::makeEntity(float mass, Vec2 pos, Vec2 vel, Vec2 acc, Sprite* spr
 	return new Entity(mass, pos, vel, acc, sprite);
 }
 
-void Entity::applyAccel(Vec2 acc)
+void Entity::accel(Vec2 acc)
 {
 	vel.add(acc);
 }
@@ -21,6 +21,11 @@ void Entity::applyAccel(Vec2 acc)
 float Entity::getMass()
 {
 	return mass;
+}
+
+Vec2 Entity::getVel()
+{
+	return vel;
 }
 
 Vec2 Entity::getPos()
