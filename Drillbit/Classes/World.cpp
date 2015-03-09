@@ -19,9 +19,9 @@ void World::generateEntities(){
 	 * there's a better way to pseudorandom generate in C++11
 	 */
 	srand (time(0));
-	for(auto i = 0; i < 10; ++i)
+	for(auto i = 0; i < 5; ++i)
 	{
-		auto entity = Entity::makeEntity(rand() % 500 + 100, Vec2(rand() % 1000,rand() % 1000), Vec2(0,0), Vec2(0,0), Sprite::create("jupiter.png"));
+		auto entity = Entity::makeEntity(rand() % 500 + 200, Vec2(rand() % 500 + 250,rand() % 500 + 250), Vec2(0,0), Vec2(0,0), Sprite::create("jupiter.png"));
 		entity->updatePos();
 		addEntity(entity);
 	}
