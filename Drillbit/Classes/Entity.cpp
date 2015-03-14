@@ -1,39 +1,59 @@
 #include "Entity.h"
+#include "Box2D.h"
 
 USING_NS_CC;
 
-void Entity::updatePos()
+Entity::Entity(b2World* world, float density, Vec2 pos, Sprite* sprite):world(world)
 {
-	pos.add(vel);
-	sprite->setPosition(pos);
+	// Create ball body
+	b2BodyDef bodyDef;
+	bodyDef.type = b2_dynamicBody;
+	bodyDef.position.Set(pos.x, pos.y);
+	bodyDef.userData = sprite;
+	body = world->CreateBody(&bodyDef);
+
+	// Create circle shape
+	b2CircleShape circle;
+	circle.m_radius = sprite->getContentSize().width/2;
+
+	// Create shape definition and add to body
+	b2FixtureDef shapeDef;
+	shapeDef.shape = &circle;
+	shapeDef.density = density;
+	shapeDef.friction = 0.f;
+	shapeDef.restitution = 0.f;
+	body->CreateFixture(&shapeDef);
+
 }
 
-Entity* Entity::makeEntity(float mass, Vec2 pos, Vec2 vel, Vec2 acc, Sprite* sprite)
+Entity* Entity::makeEntity(b2World* world, float density, Vec2 pos, Sprite* sprite)
 {
-	return new Entity(mass, pos, vel, acc, sprite);
+	return new Entity(world, density, pos, sprite);
 }
 
-void Entity::accel(Vec2 acc)
+Sprite* Entity::getUpdateSprite()
 {
-	vel.add(acc);
+    Sprite* data = (Sprite*)body->GetUserData();
+    data->setPosition(Vec2(body->GetPosition().x, body->GetPosition().y));
+    return data;
+}
+
+void Entity::applyForce(Vec2 force)
+{
+	body->ApplyForceToCenter(b2Vec2(force.x, force.y), true);
 }
 
 float Entity::getMass()
 {
-	return mass;
-}
-
-Vec2 Entity::getVel()
-{
-	return vel;
+	return body->GetMass();
 }
 
 Vec2 Entity::getPos()
 {
-	return pos;
+	return Vec2(body->GetPosition().x, body->GetPosition().y);
 }
 
-Sprite* Entity::getSprite()
+b2Body* Entity::getBody()
 {
-	return sprite;
+	return body;
 }
