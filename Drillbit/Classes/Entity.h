@@ -2,6 +2,7 @@
 #define __ENTITY_H__
 
 #include "cocos2d.h"
+#include "Box2D.h"
 #include <list>
 
 USING_NS_CC;
@@ -9,21 +10,16 @@ USING_NS_CC;
 class Entity
 {
 public:
-	static Entity* makeEntity(float mass, Vec2 pos, Vec2 vel, Vec2 acc, Sprite* sprite);
-	void updatePos();
-	void accel(Vec2 acc);
+	static Entity* makeEntity(b2World* world, float density, Vec2 pos, Sprite* sprite);
+	void applyForce(Vec2 force);
+	Sprite* getUpdateSprite();
 	float getMass();
-	Vec2 getVel();
 	Vec2 getPos();
-	Sprite* getSprite();
+	b2Body* getBody();
 private:
-	Entity(float mass, Vec2 pos, Vec2 vel, Vec2 acc, Sprite* sprite):
-			mass(mass), pos(pos), vel(vel), acc(acc), sprite(sprite) {}
-	float mass;
-	Vec2 pos;
-	Vec2 vel;
-	Vec2 acc;
-	Sprite* sprite;
+	Entity(b2World* world, float density, Vec2 pos, Sprite* sprite);
+	b2Body* body;
+	b2World* world;
 };
 
 #endif

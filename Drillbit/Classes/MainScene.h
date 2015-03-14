@@ -2,7 +2,8 @@
 #define __MAIN_SCENE_H__
 
 #include "cocos2d.h"
-#include "World.h"
+
+#include "Universe.h"
 
 class MainScene : public cocos2d::Layer
 {
@@ -15,7 +16,7 @@ public:
     void update(float) override;
     CREATE_FUNC(MainScene);
 private:
-	World world;
+    Universe universe;
 };
 
 #endif // __MAIN_SCENE_H__

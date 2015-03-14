@@ -30,18 +30,19 @@ bool MainScene::init()
     Vec2 origin = Director::getInstance()->getVisibleOrigin();
 
 
-    world.generateEntities();
-    //world.updateEntities();	not completed yet
-    std::vector<Entity*> entities = world.getEntities();
+    universe.generateEntities();
+    std::vector<Entity*> entities = universe.getEntities();
     for (std::vector<Entity*>::const_iterator iterator = entities.begin(); iterator != entities.end(); ++iterator) {
-    	this->addChild((*iterator)->getSprite(), 1);
+    	this->addChild((*iterator)->getUpdateSprite(), 1);
     }
     this->scheduleUpdate();
     return true;
 }
 
 void MainScene::update(float delta){
-	world.updateEntities();
+	universe.applyGravity();
+	universe.step(delta);
+	universe.render();
 }
 
 void MainScene::menuCloseCallback(Ref* pSender)

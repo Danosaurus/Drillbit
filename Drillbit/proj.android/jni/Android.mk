@@ -13,10 +13,11 @@ LOCAL_MODULE_FILENAME := libcocos2dcpp
 LOCAL_SRC_FILES := maincpp/main.cpp \
                    ../../Classes/AppDelegate.cpp \
                    ../../Classes/MainScene.cpp \
-                   ../../Classes/World.cpp \
+                   ../../Classes/Universe.cpp \
                    ../../Classes/Entity.cpp
 
-LOCAL_C_INCLUDES := $(LOCAL_PATH)/../../Classes
+LOCAL_C_INCLUDES := $(LOCAL_PATH)/../../Classes \
+					$(LOCAL_PATH)/../../cocos2d/external/Box2D
 
 # _COCOS_HEADER_ANDROID_BEGIN
 # _COCOS_HEADER_ANDROID_END
