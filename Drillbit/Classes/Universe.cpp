@@ -1,5 +1,7 @@
 #include "Universe.h"
 #include "Box2D.h"
+#include "PlayerShip.h"
+
 #include <cstdlib>
 #include <ctime>
 
@@ -36,8 +38,22 @@ void Universe::generateEntities(){
 		auto entity = Entity::makeEntity(world, rand() % 500 + 200, Vec2(rand() % 500 + 250,rand() % 500 + 250), Sprite::create("jupiter.png"));
 		addEntity(entity);
 	}
+
+	auto player = PlayerShip::makePlayerShip(world, 100, Vec2(1600,900), Sprite::create("CloseSelected.png"));
+	addEntity(player);
 }
 
+//need to redesign the classes
+void Universe::moveShip(float x, float y){
+	Entity * pship = entities.back();
+	__android_log_print(ANDROID_LOG_INFO, "tag here", "coordinate of ship x = %f, y = %f", pship->getPos().x, pship->getPos().y);
+	Vec2 dest = Vec2(x, y);
+	Vec2 ship = Vec2(pship->getPos().x, pship->getPos().y);
+	Vec2 vForce(ship, dest);
+	vForce.scale(100000);
+
+	pship->applyForce(vForce);
+}
 void Universe::applyGravity()
 {
 

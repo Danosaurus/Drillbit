@@ -3,7 +3,7 @@
 
 USING_NS_CC;
 
-Entity::Entity(b2World* world, float density, Vec2 pos, Sprite* sprite):world(world)
+Entity::Entity(b2World* world, float density, Vec2 pos, Sprite* sprite):world(world), accel(1)
 {
 	// Create ball body
 	b2BodyDef bodyDef;
@@ -56,4 +56,11 @@ Vec2 Entity::getPos()
 b2Body* Entity::getBody()
 {
 	return body;
+}
+
+int Entity::getAccel(){
+	return accel;
+}
+void Entity::setAccel(int acc){
+	accel = acc;
 }

@@ -16,10 +16,13 @@ public:
 	float getMass();
 	Vec2 getPos();
 	b2Body* getBody();
-private:
+	int getAccel();
+	void setAccel(int accel);
+protected:
 	Entity(b2World* world, float density, Vec2 pos, Sprite* sprite);
 	b2Body* body;
 	b2World* world;
+	int accel;
 };
 
 #endif
