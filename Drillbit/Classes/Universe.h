@@ -13,7 +13,7 @@ class Universe
 public:
 	Universe();
 	void addEntity(Entity* entity);
-	void generateEntities();
+	void generateEntities(Vec2 origin, Size visibleSize);
 	void applyGravity();
 	void render();
 	void step(float delta);

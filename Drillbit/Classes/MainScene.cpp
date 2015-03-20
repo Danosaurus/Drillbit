@@ -30,7 +30,7 @@ bool MainScene::init()
     Vec2 origin = Director::getInstance()->getVisibleOrigin();
 
 
-    universe.generateEntities();
+    universe.generateEntities(origin, visibleSize);
     std::vector<Entity*> entities = universe.getEntities();
     for (std::vector<Entity*>::const_iterator iterator = entities.begin(); iterator != entities.end(); ++iterator) {
     	this->addChild((*iterator)->getUpdateSprite(), 1);

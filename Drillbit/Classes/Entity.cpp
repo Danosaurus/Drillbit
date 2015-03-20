@@ -1,34 +1,22 @@
-#include "Entity.h"
+#include "cocos2d.h"
+#include "Planet.h"
+#include "Star.h"
+#include "BodyFactory.h"
 #include "Box2D.h"
+#include <list>
 
 USING_NS_CC;
 
-Entity::Entity(b2World* world, float density, Vec2 pos, Sprite* sprite):world(world)
+Entity::Entity(b2World* world, b2Body* body): world(world), body(body){};
+
+Entity* Entity::makePlanet(b2World* world, float density, Vec2 pos, Vec2 impulse, Sprite* sprite)
 {
-	// Create ball body
-	b2BodyDef bodyDef;
-	bodyDef.type = b2_dynamicBody;
-	bodyDef.position.Set(pos.x, pos.y);
-	bodyDef.userData = sprite;
-	body = world->CreateBody(&bodyDef);
-
-	// Create circle shape
-	b2CircleShape circle;
-	circle.m_radius = sprite->getContentSize().width/2;
-
-	// Create shape definition and add to body
-	b2FixtureDef shapeDef;
-	shapeDef.shape = &circle;
-	shapeDef.density = density;
-	shapeDef.friction = 0.f;
-	shapeDef.restitution = 0.f;
-	body->CreateFixture(&shapeDef);
-
+	return new Planet(world, BodyFactory::createCircularBody(world, density, pos, impulse, sprite));
 }
 
-Entity* Entity::makeEntity(b2World* world, float density, Vec2 pos, Sprite* sprite)
+Entity* Entity::makeStar(b2World* world, float density, Vec2 pos, Vec2 impulse, Sprite* sprite)
 {
-	return new Entity(world, density, pos, sprite);
+	return new Star(world, BodyFactory::createCircularBody(world, density, pos, impulse, sprite));
 }
 
 Sprite* Entity::getUpdateSprite()
@@ -41,6 +29,11 @@ Sprite* Entity::getUpdateSprite()
 void Entity::applyForce(Vec2 force)
 {
 	body->ApplyForceToCenter(b2Vec2(force.x, force.y), true);
+}
+
+void Entity::applyImpulse(Vec2 impulse)
+{
+	body->ApplyLinearImpulse(b2Vec2(impulse.x, impulse.y), body->GetPosition(), true);
 }
 
 float Entity::getMass()
