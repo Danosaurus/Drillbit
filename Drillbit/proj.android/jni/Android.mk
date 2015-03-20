@@ -14,7 +14,8 @@ LOCAL_SRC_FILES := maincpp/main.cpp \
                    ../../Classes/AppDelegate.cpp \
                    ../../Classes/MainScene.cpp \
                    ../../Classes/Universe.cpp \
-                   ../../Classes/Entity.cpp
+                   ../../Classes/Entity.cpp \
+                   ../../Classes/PlayerShip.cpp
 
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/../../Classes \
 					$(LOCAL_PATH)/../../cocos2d/external/Box2D
