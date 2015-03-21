@@ -28,7 +28,6 @@ bool MainScene::init()
     
     Size visibleSize = Director::getInstance()->getVisibleSize();
     Vec2 origin = Director::getInstance()->getVisibleOrigin();
-    __android_log_print(ANDROID_LOG_INFO, "tag here", "start");
 
 
     universe.generateEntities();
@@ -37,17 +36,6 @@ bool MainScene::init()
     	this->addChild((*iterator)->getUpdateSprite(), 1);
     }
     this->scheduleUpdate();
-
-    auto listener = EventListenerTouchOneByOne::create();
-    listener->setSwallowTouches(true);
-
-    listener->onTouchBegan = CC_CALLBACK_2(MainScene::onTouchBegan, this);
-    listener->onTouchMoved = CC_CALLBACK_2(MainScene::onTouchMoved, this);
-    listener->onTouchEnded = CC_CALLBACK_2(MainScene::onTouchEnded, this);
-
-    _eventDispatcher->addEventListenerWithSceneGraphPriority(listener, this);
-
-
     return true;
 }
 
@@ -55,24 +43,6 @@ void MainScene::update(float delta){
 	universe.applyGravity();
 	universe.step(delta);
 	universe.render();
-}
-
-bool MainScene::onTouchBegan(cocos2d::Touch *touch, cocos2d::Event *event)
-{
-	__android_log_print(ANDROID_LOG_INFO, "tag here", "onTouchBegan x = %f, y = %f", touch->getLocation().x, touch->getLocation().y);//("onTouchBegan x = %f, y = %f", touch->getLocation().x, touch->getLocation().y);
-	universe.moveShip(touch->getLocation().x,touch->getLocation().y);
-    return true;
-}
-
-void MainScene::onTouchMoved(cocos2d::Touch *touch, cocos2d::Event *event)
-{
-	__android_log_print(ANDROID_LOG_INFO, "tag here", "onTouchMoved x = %f, y = %f", touch->getLocation().x, touch->getLocation().y);//("onTouchMoved x = %f, y = %f", touch->getLocation().x, touch->getLocation().y);
-	universe.moveShip(touch->getLocation().x,touch->getLocation().y);
-}
-
-void MainScene::onTouchEnded(cocos2d::Touch *touch, cocos2d::Event *event)
-{
-	__android_log_print(ANDROID_LOG_INFO, "tag here", "onTouchEnded x = %f, y = %f", touch->getLocation().x, touch->getLocation().y);//("onTouchEnded x = %f, y = %f", touch->getLocation().x, touch->getLocation().y);
 }
 
 void MainScene::menuCloseCallback(Ref* pSender)

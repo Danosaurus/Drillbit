@@ -2,7 +2,7 @@
 #define __MAIN_SCENE_H__
 
 #include "cocos2d.h"
-#include <android/log.h>
+
 #include "Universe.h"
 
 class MainScene : public cocos2d::Layer
@@ -15,11 +15,6 @@ public:
 
     void update(float) override;
     CREATE_FUNC(MainScene);
-
-    bool onTouchBegan(cocos2d::Touch *touch, cocos2d::Event * event);
-    void onTouchMoved(cocos2d::Touch *touch, cocos2d::Event * event);
-    void onTouchEnded(cocos2d::Touch *touch, cocos2d::Event * event);
-
 private:
     Universe universe;
 };
