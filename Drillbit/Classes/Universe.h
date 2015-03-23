@@ -12,7 +12,8 @@ class Universe
 {
 public:
 	Universe();
-	void addEntity(Entity* entity);
+	Entity* addEntity(Entity* entity);
+	void generateSystem(Vec2 origin, Size visibleSize);
 	void generateEntities(Vec2 origin, Size visibleSize);
 	void applyGravity();
 	void render();
