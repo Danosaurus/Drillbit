@@ -9,14 +9,14 @@ USING_NS_CC;
 
 Entity::Entity(b2World* world, b2Body* body): world(world), body(body){};
 
-Entity* Entity::makePlanet(b2World* world, float density, Vec2 pos, Vec2 impulse, Sprite* sprite)
+Entity* Entity::makePlanet(b2World* world, float density, Vec2 pos, Sprite* sprite)
 {
-	return new Planet(world, BodyFactory::createCircularBody(world, density, pos, impulse, sprite));
+	return new Planet(world, BodyFactory::createCircularBody(world, density, pos, sprite));
 }
 
-Entity* Entity::makeStar(b2World* world, float density, Vec2 pos, Vec2 impulse, Sprite* sprite)
+Entity* Entity::makeStar(b2World* world, float density, Vec2 pos, Sprite* sprite)
 {
-	return new Star(world, BodyFactory::createCircularBody(world, density, pos, impulse, sprite));
+	return new Star(world, BodyFactory::createCircularBody(world, density, pos, sprite));
 }
 
 Sprite* Entity::getUpdateSprite()
