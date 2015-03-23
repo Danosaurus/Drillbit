@@ -9,7 +9,7 @@ USING_NS_CC;
 //creates and defines b2bodies
 namespace BodyFactory
 {
-    b2Body* createCircularBody(b2World* world, float density, Vec2 pos, Vec2 impulse, Sprite* sprite);
+    b2Body* createCircularBody(b2World* world, float density, Vec2 pos, Sprite* sprite);
 }
 
 #endif

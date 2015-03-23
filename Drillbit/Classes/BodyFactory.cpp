@@ -6,7 +6,7 @@ USING_NS_CC;
 
 namespace BodyFactory
 {
-	b2Body* createCircularBody(b2World* world, float density, Vec2 pos, Vec2 impulse, Sprite* sprite) {
+	b2Body* createCircularBody(b2World* world, float density, Vec2 pos, Sprite* sprite) {
 		b2BodyDef bodyDef;
 		bodyDef.type = b2_dynamicBody;
 		bodyDef.position.Set(pos.x, pos.y);
@@ -21,10 +21,9 @@ namespace BodyFactory
 		b2FixtureDef shapeDef;
 		shapeDef.shape = &circle;
 		shapeDef.density = density;
-		shapeDef.friction = 0.f;
+		shapeDef.friction = 100.f;
 		shapeDef.restitution = 0.f;
 		body->CreateFixture(&shapeDef);
-		body->ApplyLinearImpulse(b2Vec2(impulse.x, impulse.y), body->GetPosition(), true);
 		return body;
 	}
 }
