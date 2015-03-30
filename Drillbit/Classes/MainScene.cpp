@@ -2,6 +2,21 @@
 
 USING_NS_CC;
 
+double MainScene::lastTickTime = 0;
+double MainScene::accumulator = 0;
+const double delta = 1./60;
+double getCurrentTimeInSeconds()
+{
+  static struct timeval currentTime;
+  gettimeofday(&currentTime, nullptr);
+  return (currentTime.tv_sec) + (currentTime.tv_usec / 1000000.0);
+}
+
+void MainScene::resetTickTime()
+{
+	lastTickTime = 0;
+}
+
 Scene* MainScene::createScene()
 {
     // 'scene' is an autorelease object
@@ -39,9 +54,19 @@ bool MainScene::init()
     return true;
 }
 
-void MainScene::update(float delta){
-	universe.applyGravity();
-	universe.step(delta);
+void MainScene::update(float dt){
+	double currTickTime = getCurrentTimeInSeconds();
+	if(lastTickTime == 0)	lastTickTime = currTickTime;
+	double frameTime = currTickTime - lastTickTime;
+	lastTickTime = currTickTime;
+	accumulator += frameTime;
+
+	while(accumulator > delta)
+	{
+		log("%f, %f", accumulator, delta);
+		universe.step(delta);
+		accumulator -= delta;
+	}
 	universe.render();
 }
 
