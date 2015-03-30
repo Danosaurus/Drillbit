@@ -22,7 +22,8 @@ Entity* Universe::addEntity(Entity* entity)
 
 void Universe::step(float delta)
 {
-	world->Step(delta, 10, 10);
+	applyGravity();
+	world->Step(delta, 8, 3);
 }
 
 void Universe:: generateSystem(Vec2 origin, Size visibleSize)
@@ -68,7 +69,6 @@ void Universe:: generateSystem(Vec2 origin, Size visibleSize)
 		}
 		Entity* currPlanet = addEntity(Entity::makePlanet(world, rand() % 1000 + 500, currPos, planetSprite));
 		currPlanet->applyImpulse(Vec2(0,currPlanet->getMass() * sqrt(G_CONSTANT * star->getMass() / star->getPos().getDistance(currPlanet->getPos()))));
-		log("initial velocity: %f\n", sqrt(G_CONSTANT * star->getMass() / star->getPos().getDistance(currPos)));
 	}
 }
 
