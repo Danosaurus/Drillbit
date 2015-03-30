@@ -15,11 +15,11 @@ public:
 	Entity* addEntity(Entity* entity);
 	void generateSystem(Vec2 origin, Size visibleSize);
 	void generateEntities(Vec2 origin, Size visibleSize);
-	void applyGravity();
 	void render();
 	void step(float delta);
 	std::vector<Entity*> getEntities();
 private:
+	void applyGravity();
 	std::vector<Entity*> entities;
 	b2World* world;
 };

@@ -18,6 +18,7 @@ public:
 	Sprite* getUpdateSprite();
 	float getMass();
 	Vec2 getPos();
+	Vec2 getVel();
 	b2Body* getBody();
 private:
 	b2Body* body;

@@ -43,7 +43,14 @@ float Entity::getMass()
 
 Vec2 Entity::getPos()
 {
-	return Vec2(body->GetPosition().x, body->GetPosition().y);
+	b2Vec2 pos = body->GetPosition();
+	return Vec2(pos.x, pos.y);
+}
+
+Vec2 Entity::getVel()
+{
+	b2Vec2 vel = body->GetLinearVelocity();
+	return Vec2(vel.x, vel.y);
 }
 
 b2Body* Entity::getBody()
